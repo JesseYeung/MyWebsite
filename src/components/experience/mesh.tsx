@@ -3,8 +3,9 @@ import * as THREE from "three";
 import { useGLTF } from "@react-three/drei";
 import { useLoader } from "@react-three/fiber";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
+import { withPrefix } from "gatsby";
 
-const MODEL_PATH = "/models/sydneyOperaHouse/sydneyOperaHouse.gltf";
+const MODEL_PATH = withPrefix("/models/sydneyOperaHouse/sydneyOperaHouse.gltf");
 
 const Mesh = () => {
   const { nodes, materials } = useLoader(GLTFLoader, MODEL_PATH);
