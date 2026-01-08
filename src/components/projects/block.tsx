@@ -7,7 +7,6 @@ import ProjectLink from "./projectLink";
 import layout from "../../styles/layout";
 import TextSection from "../global/textSection";
 import iconPicker from "../../helper/iconPicker";
-import mediaPicker from "../../helper/mediaPicker";
 import MyProjects from "../../types/myProjects";
 import SentenceDescription from "../../types/sentenceDescription";
 import {

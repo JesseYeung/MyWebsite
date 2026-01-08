@@ -17,6 +17,7 @@ const SITE_URL = `${HTTPS}${SITE_DOMAIN}`;
 
 const config: GatsbyConfig = {
   trailingSlash: "never",
+  pathPrefix: "/MyWebsite",
   siteMetadata: {
     title: SITE_TITLE,
     description: DESCRIPTION_INDEX,

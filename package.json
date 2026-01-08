@@ -26,6 +26,7 @@
     "build": "cross-env NODE_ENV=production gatsby build",
     "serve": "gatsby serve -H 0.0.0.0",
     "deliver": "cross-env NODE_ENV=production gatsby clean && gatsby build && gatsby serve -H 0.0.0.0",
+    "deploy": "cross-env NODE_ENV=production gatsby build --prefix-paths && gh-pages -d public",
     "clean": "gatsby clean",
     "typecheck": "tsc --noEmit"
   },
@@ -63,6 +64,7 @@
     "gatsby-plugin-styled-components": "^6.14.0",
     "gatsby-source-filesystem": "^5.14.0",
     "gatsby-transformer-sharp": "^5.14.0",
+    "gh-pages": "^6.3.0",
     "googleapis": "^156.0.0",
     "gsap": "^3.13.0",
     "postprocessing": "^6.37.7",

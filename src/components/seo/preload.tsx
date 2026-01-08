@@ -2,11 +2,6 @@ import React from "react";
 import fontPrimaryNormal from "../../../static/fonts/SansSerifFLF-Demibold.woff";
 import fontPrimaryBold from "../../../static/fonts/SansSerifBldFLF.woff";
 import fontSecondaryNormal from "../../../static/fonts/BwGradual-Medium.ttf";
-import canary from "../../../static/videos/canary.mp4";
-import maily from "../../../static/videos/maily.mp4";
-import neetcode from "../../../static/videos/neetcode.mp4";
-import piston from "../../../static/videos/piston.mp4";
-import smh from "../../../static/videos/smh.mp4";
 
 const Preload = () => (
   <>

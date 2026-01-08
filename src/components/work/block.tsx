@@ -6,7 +6,6 @@ import Color from "../../enums/color";
 import layout from "../../styles/layout";
 import TextSection from "../global/textSection";
 import iconPicker from "../../helper/iconPicker";
-import mediaPicker from "../../helper/mediaPicker";
 import WorkExperience from "../../types/workExperience";
 import SentenceDescription from "../../types/sentenceDescription";
 import {
