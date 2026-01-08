@@ -1,32 +1,7 @@
 import Icon from "../enums/icons";
 
-import canary from "../../static/images/logos/canary.svg";
-import canaryBlack from "../../static/images/logos/canary-black.svg";
-import chancery from "../../static/images/logos/chancery.svg";
-import cie from "../../static/images/logos/cie.svg";
-import coates from "../../static/images/logos/coates.svg";
-import coatesBlack from "../../static/images/logos/coates-black.svg";
-import nasdaq from "../../static/images/logos/nasdaq.svg";
-import nasdaqBlack from "../../static/images/logos/nasdaq-black.svg";
-import maily from "../../static/images/logos/maily.svg";
-import neetcode from "../../static/images/logos/neetcode.svg";
-import slik from "../../static/images/logos/slik.svg";
-import slikBlack from "../../static/images/logos/slik-black.svg";
-import nzGovt from "../../static/images/logos/nzgovt.png";
-import nzGovtBlack from "../../static/images/logos/nzgovt-black.png";
-import piston from "../../static/images/logos/piston.png";
-import qantas from "../../static/images/logos/qantas.svg";
-import qantasBlack from "../../static/images/logos/qantas-black.svg";
-import redbull from "../../static/images/logos/redbull.svg";
-import uoa from "../../static/images/logos/uoa.png";
-import usyd from "../../static/images/logos/usyd.svg";
-import usydBlack from "../../static/images/logos/usyd-black.svg";
 import unsw from "../../static/images/logos/unsw.svg";
 import uwa from "../../static/images/logos/uwa.svg";
-import uwaBlack from "../../static/images/logos/uwa-black.svg";
-import yourcar from "../../static/images/logos/yourcar.svg";
-import youtube from "../../static/images/logos/youtube.svg";
-import youtubeBlack from "../../static/images/logos/youtube-black.svg";
 
 import starbucks from "../../static/images/logos/starbucks.svg";
 import gdut from "../../static/images/logos/gdut.svg";
@@ -64,42 +39,10 @@ import jquery from "../../static/images/skills/jquery.svg";
 
 const iconPicker = (logo: string, isDark: boolean) => {
   switch (logo) {
-    case Icon.Canary:
-      return isDark ? canary : canaryBlack;
-    case Icon.Chancery:
-      return chancery;
-    case Icon.Cie:
-      return cie;
-    case Icon.Coates:
-      return isDark ? coates : coatesBlack;
-    case Icon.Nasdaq:
-      return isDark ? nasdaq : nasdaqBlack;
-    case Icon.Maily:
-      return maily;
-    case Icon.Neetcode:
-      return neetcode;
-    case Icon.Slik:
-      return isDark ? slik : slikBlack;
-    case Icon.NzGovt:
-      return isDark ? nzGovt : nzGovtBlack;
-    case Icon.Piston:
-      return piston;
-    case Icon.Qantas:
-      return isDark ? qantas : qantasBlack;
-    case Icon.Redbull:
-      return redbull;
-    case Icon.UoA:
-      return uoa;
-    case Icon.USYD:
-      return isDark ? usyd : usydBlack;
     case Icon.UNSW:
       return unsw;
     case Icon.UWA:
-      return isDark ? uwa : uwaBlack;
-    case Icon.Yourcar:
-      return yourcar;
-    case Icon.YouTube:
-      return isDark ? youtube : youtubeBlack;
+      return uwa;
     case Icon.Angular:
       return angular;
     case Icon.AWS:
