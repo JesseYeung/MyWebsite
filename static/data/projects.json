@@ -1,0 +1,104 @@
+[
+  {
+    "name": "ImmiFlow – Case & Task Management System",
+    "image": "immiflow",
+    "imageAlt": "ImmiFlow Case Management System",
+    "imageHeight": 40,
+    "linkUrl": "",
+    "media": "immiflow",
+    "portraitOperation": false,
+    "widthLarge": "55%",
+    "widthMedium": "55%",
+    "description": [
+      [
+        {
+          "content": "Designed and implemented a Flask (Python) + SQLite system to manage client cases and internal task workflows."
+        }
+      ],
+      [
+        {
+          "content": "Developed case templates for multiple visa and education service types, enabling automated task generation with estimated times."
+        }
+      ],
+      [
+        {
+          "content": "Implemented role-based access control (Admin, Employee) and intelligent task assignment to balance daily workloads (~450 minutes/day)."
+        }
+      ],
+      [
+        {
+          "content": "Built reporting features using Matplotlib and CSV exports for monitoring employee workload and case progress."
+        }
+      ],
+      [
+        {
+          "content": "Delivered a minimal HTML/JS front-end to streamline case intake, task tracking, and employee dashboards."
+        }
+      ]
+    ],
+    "techStack": ["Python", "Flask", "SQLite", "HTML", "JavaScript", "Matplotlib"]
+  },
+  {
+    "name": "Course Insights & Skills Alignment Platform",
+    "image": "cisap",
+    "imageAlt": "Course Insights Platform",
+    "imageHeight": 40,
+    "linkUrl": "https://github.com/JesseYeung/cisap-platform",
+    "media": "cisap",
+    "portraitOperation": false,
+    "widthLarge": "55%",
+    "widthMedium": "55%",
+    "description": [
+      [
+        {
+          "content": "Led project as Scrum Master and Backend Developer for a platform designed to provide insights into course offerings and align with specific skill sets."
+        }
+      ],
+      [
+        {
+          "content": "Coordinated sprint planning and retrospectives in a 5-person Agile team."
+        }
+      ],
+      [
+        {
+          "content": "Developed backend features including data scraping from the UNSW Handbook and role-based access control."
+        }
+      ],
+      [
+        {
+          "content": "Communicated closely with frontend and backend team to ensure consistent integration and functionality across platform."
+        }
+      ]
+    ],
+    "techStack": ["Agile", "Scrum", "Backend Development", "Data Scraping"]
+  },
+  {
+    "name": "Leaf Disease Classification System",
+    "image": "leafdisease",
+    "imageAlt": "Leaf Disease Classification",
+    "imageHeight": 40,
+    "linkUrl": "https://github.com/JesseYeung/leaf-disease-classification",
+    "media": "leafdisease",
+    "portraitOperation": false,
+    "widthLarge": "55%",
+    "widthMedium": "55%",
+    "description": [
+      [
+        {
+          "content": "Developed a CNN-based model to identify and classify various leaf diseases accurately."
+        }
+      ],
+      [
+        {
+          "content": "Optimised model to handle environmental variations, ensuring suitability for real-time deployment in agricultural settings."
+        }
+      ],
+      [
+        {
+          "content": "Implemented image preprocessing techniques and enhanced model for high accuracy and efficiency."
+        }
+      ]
+    ],
+    "techStack": ["CNN", "Machine Learning", "Image Processing"]
+  }
+]

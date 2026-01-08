@@ -1,0 +1,81 @@
+{
+  "primary": [
+    {
+      "name": "python",
+      "displayName": "Python",
+      "skill": 90
+    },
+    {
+      "name": "javascript",
+      "displayName": "JavaScript / Node.js",
+      "skill": 85
+    },
+    {
+      "name": "java",
+      "displayName": "Java",
+      "skill": 80
+    },
+    {
+      "name": "react",
+      "displayName": "React",
+      "skill": 80
+    },
+    {
+      "name": "django",
+      "displayName": "Django / Flask",
+      "skill": 75
+    },
+    {
+      "name": "sql",
+      "displayName": "SQL",
+      "skill": 75
+    },
+    {
+      "name": "htmlcss",
+      "displayName": "HTML5 / CSS3",
+      "skill": 70
+    }
+  ],
+  "secondary": [
+    {
+      "name": "c",
+      "displayName": "C"
+    },
+    {
+      "name": "restapi",
+      "displayName": "RESTful APIs"
+    },
+    {
+      "name": "jquery",
+      "displayName": "jQuery"
+    },
+    {
+      "name": "git",
+      "displayName": "Git"
+    },
+    {
+      "name": "docker",
+      "displayName": "Docker"
+    },
+    {
+      "name": "hadoop",
+      "displayName": "Hadoop"
+    },
+    {
+      "name": "powerbi",
+      "displayName": "Power BI"
+    },
+    {
+      "name": "agile",
+      "displayName": "Agile / Scrum"
+    },
+    {
+      "name": "jira",
+      "displayName": "Jira"
+    },
+    {
+      "name": "cicd",
+      "displayName": "CI/CD"
+    }
+  ]
+}

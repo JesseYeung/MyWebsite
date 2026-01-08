@@ -1,0 +1,63 @@
+[
+  {
+    "company": "starbucks",
+    "imageHeight": 45,
+    "jobTitle": "Shift Supervisor",
+    "companyTitle": "Starbucks Australia",
+    "start": "Mar 2025",
+    "end": "Current",
+    "city": "Sydney",
+    "country": "Australia",
+    "description": [
+      [
+        {
+          "content": "Mentoring new partners and maintaining a productive, positive team environment."
+        }
+      ],
+      [
+        {
+          "content": "Supporting sales growth through upselling and strong visual merchandising."
+        }
+      ],
+      [
+        {
+          "content": "Managing cash handling, inventory control, and online order fulfilment."
+        }
+      ],
+      [
+        {
+          "content": "Leading shift operations; ensuring smooth workflow, team coordination, and high service standards."
+        }
+      ]
+    ],
+    "techStack": []
+  },
+  {
+    "company": "zhongqi",
+    "imageHeight": 45,
+    "jobTitle": "Web Developer",
+    "companyTitle": "Zhongqi Wangpan Technology Zhuhai Co., Ltd",
+    "start": "Jul 2020",
+    "end": "Jul 2021",
+    "city": "Zhuhai",
+    "country": "China",
+    "description": [
+      [
+        {
+          "content": "Updated and managed website content using HTML/CSS/JavaScript, improving load times and UX."
+        }
+      ],
+      [
+        {
+          "content": "Processed and formatted digital materials for web publishing, ensuring visual consistency and performance."
+        }
+      ],
+      [
+        {
+          "content": "Collaborated with team members to implement content changes based on stakeholder feedback."
+        }
+      ]
+    ],
+    "techStack": ["HTML", "CSS", "JavaScript"]
+  }
+]
