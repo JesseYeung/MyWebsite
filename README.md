@@ -1,15 +1,3 @@
-![Jesse-Yang-Portfolio](https://socialify.git.ci/JesseYeung/Jesse-Yang-Portfolio/image?description=1&descriptionEditable=Jesse%20Yang%20Portfolio%20-%20Full%20Stack%20Developer&language=1&name=1&pattern=Plus&theme=Dark)
-
-[![Website](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://jesseyang.dev/?utm_source=github&utm_medium=web)&nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hailin-yang2000)
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)&nbsp;
-![Gatsby](https://img.shields.io/badge/Gatsby-663399?style=for-the-badge&logo=gatsby&logoColor=white)&nbsp;
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)&nbsp;
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)&nbsp;
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)&nbsp;
-![ThreeJs](https://img.shields.io/badge/ThreeJs-black?style=for-the-badge&logo=three.js&logoColor=white)
-
 ## Overview
 
 This repository contains the source code for Jesse Yang's personal portfolio website. Built with modern web technologies, this site showcases Jesse's journey as a Full-Stack Developer, featuring his projects, work experience, education, and technical skills.
