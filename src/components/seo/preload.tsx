@@ -28,12 +28,7 @@ const Preload = () => (
       crossOrigin="anonymous"
     />
 
-    {/* Preload Content */}
-    <link rel="preload" href={canary} as="video" type="video/mp4" />
-    <link rel="preload" href={maily} as="video" type="video/mp4" />
-    <link rel="preload" href={neetcode} as="video" type="video/mp4" />
-    <link rel="preload" href={piston} as="video" type="video/mp4" />
-    <link rel="preload" href={smh} as="video" type="video/mp4" />
+    {/* Preload Content - Videos removed due to missing files */}
   </>
 );
 

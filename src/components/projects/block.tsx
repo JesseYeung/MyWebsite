@@ -88,37 +88,6 @@ const Block = ({
             isDarkMode={isDarkMode}
           />
         )}
-        {!!project.media && (
-          <CSSTransition
-            nodeRef={mediaRef}
-            in={displayMedia}
-            timeout={300}
-            classNames="fade"
-            unmountOnExit
-          >
-            <MediaWrapper
-              $top={clickableRef.current?.getBoundingClientRect().bottom!}
-            >
-              <Media
-                $portraitOperation={project.portraitOperation!}
-                $widthLarge={project.widthLarge!}
-                $widthMedium={project.widthMedium!}
-                ref={mediaRef}
-              >
-                <Video
-                  autoPlay
-                  loop
-                  muted
-                  preload="auto"
-                  $isDarkMode={isDarkMode}
-                  $portraitOperation={project.portraitOperation!}
-                >
-                  <source src={mediaPicker(project.media!)} type="video/mp4" />
-                </Video>
-              </Media>
-            </MediaWrapper>
-          </CSSTransition>
-        )}
       </motion.div>
     </Container>
   );

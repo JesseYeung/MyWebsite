@@ -91,30 +91,6 @@ const Block = ({
             </DescriptionText>
           )
         )}
-        {!!experience.media && (
-          <CSSTransition
-            nodeRef={mediaRef}
-            in={displayMedia}
-            timeout={300}
-            classNames="fade"
-            unmountOnExit
-          >
-            <Media
-              ref={mediaRef}
-              $top={clickableRef.current?.getBoundingClientRect().top!}
-            >
-              <Video
-                preload="auto"
-                $isDarkMode={isDarkMode}
-                autoPlay
-                loop
-                muted
-              >
-                <source src={mediaPicker(experience.media!)} type="video/mp4" />
-              </Video>
-            </Media>
-          </CSSTransition>
-        )}
       </motion.div>
     </Container>
   );
