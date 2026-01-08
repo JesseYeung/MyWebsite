@@ -61,15 +61,17 @@ const Block = ({
         <Secondary>
           {experience.city}, {experience.country}
         </Secondary>
-        <DescriptionText $isFirst={false}>
-          <span style={{ color: isDarkMode ? Color.BLUE : Color.RED }}>
-            Tech stack:
-          </span>
-          {experience.techStack.map(
-            (tech: string, index: number) =>
-              `${index == 0 ? " " : " • "}${tech}`
-          )}
-        </DescriptionText>
+        {experience.techStack && experience.techStack.length > 0 && (
+          <DescriptionText $isFirst={false}>
+            <span style={{ color: isDarkMode ? Color.BLUE : Color.RED }}>
+              Tech stack:
+            </span>
+            {experience.techStack.map(
+              (tech: string, index: number) =>
+                `${index == 0 ? " " : " • "}${tech}`
+            )}
+          </DescriptionText>
+        )}
         {experience.description.map(
           (description: SentenceDescription[], index: number) => (
             <DescriptionText key={index} $isFirst={index == 0}>
