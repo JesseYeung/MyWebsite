@@ -47,6 +47,7 @@ enum Icon {
   Jira = "jira",
   Hadoop = "hadoop",
   jQuery = "jquery",
+  WeChat = "wechat",
   Starbucks = "starbucks",
   Gdut = "gdut",
   Empty = "",

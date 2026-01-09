@@ -53,10 +53,20 @@
       ],
       [
         {
+          "content": "Contributed to the development of a WeChat Mini Program as an additional access channel alongside the company website."
+        }
+      ],
+      [
+        {
+          "content": "Integrated basic WeChat APIs (e.g. Mini Program login and data interaction) to support user authentication and content delivery."
+        }
+      ],
+      [
+        {
           "content": "Collaborated with team members to implement content changes based on stakeholder feedback."
         }
       ]
     ],
-    "techStack": ["HTML", "CSS", "JavaScript"]
+    "techStack": ["HTML", "CSS", "JavaScript", "WeChat Mini Program", "WeChat APIs"]
   }
 ]

@@ -36,6 +36,7 @@ import git from "../../static/images/skills/git.svg";
 import jira from "../../static/images/skills/jira.svg";
 import hadoop from "../../static/images/skills/hadoop.svg";
 import jquery from "../../static/images/skills/jquery.svg";
+import wechat from "../../static/images/skills/wechat.svg";
 
 const iconPicker = (logo: string, isDark: boolean) => {
   switch (logo) {
@@ -99,6 +100,8 @@ const iconPicker = (logo: string, isDark: boolean) => {
       return hadoop;
     case Icon.jQuery:
       return jquery;
+    case Icon.WeChat:
+      return wechat;
     case Icon.Starbucks:
       return starbucks;
     case Icon.Gdut:

@@ -99,19 +99,13 @@ const SkillsBlock = ({ isDarkMode }: { isDarkMode: boolean }) => (
         </SkillsText>
       </Skill>
       <SecondarySkillsWrapper>
-        {(skillsData as Skills).secondary
-          .slice(0, 8)
-          .map((skill: SkillType, index: number) => (
-            <SecondarySkills
-              key={index}
-              skill={skill}
-              isDarkMode={isDarkMode}
-            />
-          ))}
-        <SecondarySkills
-          skill={(skillsData as Skills).secondary[8]}
-          isDarkMode={isDarkMode}
-        />
+        {(skillsData as Skills).secondary.map((skill: SkillType, index: number) => (
+          <SecondarySkills
+            key={index}
+            skill={skill}
+            isDarkMode={isDarkMode}
+          />
+        ))}
       </SecondarySkillsWrapper>
     </motion.div>
   </Container>
@@ -271,10 +265,6 @@ const SecondarySkillsItem = styled.div<{ $isDarkMode: boolean }>`
 
     &:nth-child(4n + 1) {
       border-left: none;
-    }
-
-    &:last-of-type {
-      display: none;
     }
   }
 `;

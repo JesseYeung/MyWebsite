@@ -76,6 +76,14 @@
     {
       "name": "cicd",
       "displayName": "CI/CD"
+    },
+    {
+      "name": "wechat",
+      "displayName": "WeChat Mini Program"
+    },
+    {
+      "name": "wechat",
+      "displayName": "WeChat APIs"
     }
   ]
 }
