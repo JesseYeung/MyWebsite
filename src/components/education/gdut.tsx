@@ -19,7 +19,7 @@ const Gdut = ({ isDarkMode }: { isDarkMode: boolean }) => (
       transition={{ stiffness: 0, duration: 0.4, delay: 0.1 * 1 }}
     >
       <Logo
-        $height={50}
+        $height={80}
         src={iconPicker(Icon.Gdut, isDarkMode)}
         alt="Guangdong University of Technology"
       />

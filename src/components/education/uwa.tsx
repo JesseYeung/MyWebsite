@@ -11,7 +11,7 @@ import {
   IMAGE_DEFAULT_HEIGHT,
 } from "../../constants/margin";
 
-const Usyd = ({ isDarkMode }: { isDarkMode: boolean }) => (
+const Uwa = ({ isDarkMode }: { isDarkMode: boolean }) => (
   <Container className="font-primary-normal" $isDarkMode={isDarkMode}>
     <motion.div
       initial={{ opacity: 0 }}
@@ -19,7 +19,7 @@ const Usyd = ({ isDarkMode }: { isDarkMode: boolean }) => (
       transition={{ stiffness: 0, duration: 0.4, delay: 0.1 * 2 }}
     >
       <Logo
-        $height={50}
+        $height={80}
         src={iconPicker(Icon.UWA, isDarkMode)}
         alt="University of Western Australia"
       />
@@ -45,7 +45,7 @@ const Usyd = ({ isDarkMode }: { isDarkMode: boolean }) => (
   </Container>
 );
 
-export default Usyd;
+export default Uwa;
 
 const Container = styled.div<{ $isDarkMode: boolean }>`
   margin-top: 20px;

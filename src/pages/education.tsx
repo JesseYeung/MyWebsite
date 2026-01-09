@@ -12,9 +12,9 @@ import MousePosition from "../types/mousePosition";
 import usePwaDetection from "../hooks/usePwaDetection";
 import useDarkModeManager from "../hooks/useDarkModeManager";
 import useIphoneXDetection from "../hooks/useIphoneXDetection";
-import Uoa from "../components/education/uoa";
+import Unsw from "../components/education/unsw";
 import Splash from "../components/seo/splash";
-import Usyd from "../components/education/usyd";
+import Uwa from "../components/education/uwa";
 import Gdut from "../components/education/gdut";
 import Preload from "../components/seo/preload";
 import MetaTags from "../components/seo/metaTags";
@@ -87,8 +87,8 @@ const Education = ({ location }: { location: WindowLocation }) => {
       </Top>
       <Horizontal>
         <Gdut isDarkMode={isDarkMode} />
-        <Usyd isDarkMode={isDarkMode} />
-        <Uoa isDarkMode={isDarkMode} />
+        <Uwa isDarkMode={isDarkMode} />
+        <Unsw isDarkMode={isDarkMode} />
         <Bottom
           className="font-secondary-normal"
           $isDarkMode={isDarkMode}
