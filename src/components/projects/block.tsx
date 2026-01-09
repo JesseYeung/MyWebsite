@@ -49,9 +49,9 @@ const Block = ({
         {/* Logo removed as requested */}
         <ProjectName $isDarkMode={isDarkMode}>{project.name}</ProjectName>
         <DescriptionText $isFirst={false}>
-          <span style={{ color: isDarkMode ? Color.BLUE : Color.RED }}>
+          <UtilisedLabel $isDarkMode={isDarkMode}>
             Utilised:
-          </span>
+          </UtilisedLabel>
           {project.techStack.map(
             (tech: string, index: number) =>
               `${index == 0 ? " " : " • "}${tech}`
@@ -210,4 +210,8 @@ const DescriptionText = styled.p<{ $isFirst: boolean }>`
     font-size: 20px;
     line-height: 30px;
   }
+`;
+
+const UtilisedLabel = styled.span<{ $isDarkMode: boolean }>`
+  color: ${({ $isDarkMode }) => ($isDarkMode ? Color.BLUE : Color.RED)};
 `;

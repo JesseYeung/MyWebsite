@@ -63,9 +63,9 @@ const Block = ({
         </Secondary>
         {experience.techStack && experience.techStack.length > 0 && (
           <DescriptionText $isFirst={false}>
-            <span style={{ color: isDarkMode ? Color.BLUE : Color.RED }}>
+            <TechStackLabel $isDarkMode={isDarkMode}>
               Tech stack:
-            </span>
+            </TechStackLabel>
             {experience.techStack.map(
               (tech: string, index: number) =>
                 `${index == 0 ? " " : " • "}${tech}`
@@ -214,4 +214,8 @@ const Video = styled.video<{ $isDarkMode: boolean }>`
     0 4px 6px -4px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+`;
+
+const TechStackLabel = styled.span<{ $isDarkMode: boolean }>`
+  color: ${({ $isDarkMode }) => ($isDarkMode ? Color.BLUE : Color.RED)};
 `;
